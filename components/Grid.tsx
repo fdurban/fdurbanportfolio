@@ -93,7 +93,7 @@ const Grid = () => {
               className=" rounded-t-2xl"
             />
           )}
-          <div className=" text-anti_flash_white bg-penn_blue backdrop-blur rounded-b-2xl p-4 w-full bottom-0">
+          <div className="text-anti_flash_white bg-penn_blue backdrop-blur rounded-b-2xl p-4 w-full bottom-0">
             <div className="flex justify-between items-center flex-nowrap">
               <h1>{item.title}</h1>
               <Technologies items={item.technologies} />

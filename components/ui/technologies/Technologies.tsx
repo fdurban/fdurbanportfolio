@@ -6,11 +6,11 @@ interface TechnologiesProps {
 
 const Technologies: React.FC<TechnologiesProps> = ({ items }) => {
   return (
-    <div className="flex space-x-2 flex-wrap lg:flex-nowrap">
+    <div className="flex flex-wrap">
       {items.map((tech, index) => (
         <span
           key={index}
-          className="bg-gray-200 text-black rounded px-2 py-1 text-[7px]  m-2"
+          className="bg-gray-200 text-black rounded p-1 text-[7px] m-1 2xl:text-xs"
         >
           {tech}
         </span>
