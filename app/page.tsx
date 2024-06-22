@@ -50,14 +50,7 @@ export default function Home() {
               create comprehensive projects from backend to frontend.
             </p>
             <p className="text-lg lg:text-xl text-penn_blue text-center my-6 leading-relaxed">
-              Before diving into web development, I gained valuable experience
-              in customer service and warehouse management. These roles
-              sharpened my communication, teamwork, and attention to detail
-              skills. Combining my business background with technical expertise,
-              I bring a unique perspective to solving complex challenges.
-              I&apos;m always on the lookout for opportunities to leverage
-              technology for innovation and impact in the tech industry. Feel
-              free to connect with me on{" "}
+              Feel free to connect with me on{" "}
               <a
                 href="https://www.linkedin.com/in/fernando-durban-brizio-3861741b7/"
                 className="text-xanthous underline"
