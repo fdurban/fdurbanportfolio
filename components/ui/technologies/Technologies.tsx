@@ -10,7 +10,7 @@ const Technologies: React.FC<TechnologiesProps> = ({ technologies }) => {
       {technologies.map((tech, index) => (
         <span
           key={index}
-          className="bg-gray-200 text-black rounded px-2 py-1 text-xs"
+          className="bg-gray-200 text-black rounded px-2 py-1 text-[7px]"
         >
           {tech}
         </span>
