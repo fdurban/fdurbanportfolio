@@ -24,7 +24,7 @@ const MainText: React.FC<MainTextProps> = ({ children }) => {
     }
   }, []);
   return (
-    <div className="flex justify-center items-center my-6">
+    <div className="flex justify-center items-center mb-10 mt-6">
       <div className="relative h-fit w-fit">
         <div className="bg-dark_green rounded absolute inset-0 z-10 animation"></div>
         <h1 className="text-4xl lg:text-5xl font-bold text-penn_blue z-0">

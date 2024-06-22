@@ -96,7 +96,7 @@ const Grid = () => {
           <div className=" text-anti_flash_white bg-penn_blue backdrop-blur rounded-b-2xl p-4 w-full bottom-0">
             <div className="flex justify-between items-center flex-nowrap">
               <h1>{item.title}</h1>
-              <Technologies technologies={item.technologies} />
+              <Technologies items={item.technologies} />
             </div>
             <p>{item.description}</p>
           </div>

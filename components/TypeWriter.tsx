@@ -40,7 +40,7 @@ const TypeWriter = () => {
 
   return (
     <>
-      <h1 className="text-penn_blue text-5xl font-bold text-nowrap">
+      <h1 className="text-penn_blue text-5xl font-bold lg:text-nowrap">
         {text}
         <span className="animate-blink text-penn_blue">|</span>
       </h1>
